@@ -7,6 +7,15 @@
     color: var(--blue);
 }
 
+/* Set the backgound colour */
+html { 
+    background-color: var(--navyblue);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .header-container {
     flex-wrap: wrap;
     flex-direction: column;
