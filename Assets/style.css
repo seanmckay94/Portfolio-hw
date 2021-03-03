@@ -1,0 +1,208 @@
+:root {
+    --navyblue: #2d3c61;
+}
+
+::selection {
+    background-color: var(--navyblue);
+    color: var(--blue);
+}
+
+.header-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--navyblue);
+}
+
+.page-title {
+    font-family: monospace;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    padding: 40px 0px 0px 30px;
+}
+
+#header-text {
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px 20px 30px;
+}
+
+#header-spacing {
+    height: 10px;
+    width: auto;
+    border: 3px;
+    margin: auto;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px 16px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+#content-boxes {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--navyblue);
+}
+
+.content-containers {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 20px;
+    border-style: none none none solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.container-text {
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+}
+
+.mywork-container {
+    display: inline-flex;
+    flex-direction: nowrap;
+}
+
+.work-images {
+    width: 475px;
+    height: 350px;
+    padding: 15px 50px 15px 0px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: var(--navyblue);
+}
+
+.About-Me {
+    height: fit-content;
+    width: auto;
+    padding: 30px 0px 20px 20px;
+}
+
+#container-1 {
+    flex-direction: nowrap;
+    flex-shrink: 1;
+    height: 500px;
+    width: 1000px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Work {
+    height: fit-content;
+    width: auto;
+    padding: 30px 0px 20px 20px;
+}
+
+#container-2 {
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    height: 500px;
+    width: 1000px;
+    outline: white 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Contact-Me {
+    height: fit-content;
+    width: auto;
+    padding: 30px 0px 20px 20px;
+}
+
+.bottomnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottomnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px 16px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+  }
+  
+  /* Change the color of links on hover */
+  .bottomnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .bottomnav .icon {
+    display: none;
+  }
+
+  /* container 3 is used as a location for the topnav bar to scroll the UI to view once pressed */
+#container-3 {
+    display: none;
+}
+
+.section-headers {
+    float: left;
+    padding: 0px 50px 0px 150px;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    width: 175px;
+}
+
+#footer-header {
+    float: center;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.footer {
+    justify-content: center;
+    display: flex;
+    background-color: var(--navyblue);
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-columns: auto;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        grid-template-columns: auto auto;
+    }
+}
